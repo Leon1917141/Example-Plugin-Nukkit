@@ -11,6 +11,8 @@ import cn.nukkit.level.Sound;
 
 public class onResponded implements Listener {
 
+
+    //Event when player interact with an Form!
     @EventHandler
     public void onResponded(PlayerFormRespondedEvent event){
         if (!event.wasClosed()){
