@@ -1,17 +1,17 @@
-package de.leontendev.commands;
+package de.leontendev.ui.commands;
 
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.form.element.*;
 import cn.nukkit.form.window.FormWindowCustom;
-import cn.nukkit.form.window.FormWindowSimple;
 
-public class CustomUI extends Command {
-    public CustomUI(String name, String description, String usageMessage, String[] aliases) {
+public class CreateCustomUI extends Command {
+    public CreateCustomUI(String name, String description, String usageMessage, String[] aliases) {
         super(name, description, usageMessage, aliases);
     }
 
+    //COMMAND: /customui
     @Override
     public boolean execute(CommandSender sender, String s, String[] args) {
         if (sender instanceof Player){

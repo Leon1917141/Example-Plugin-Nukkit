@@ -1,4 +1,5 @@
-de\leontendev\commands\SimpleUI.class
-de\leontendev\events\onResponded.class
-de\leontendev\Test.class
-de\leontendev\commands\CustomUI.class
+de\leontendev\Example.class
+de\leontendev\ui\commands\CreateSimpleUI.class
+de\leontendev\command\NukkitTabCompleter.class
+de\leontendev\ui\events\onResponded.class
+de\leontendev\ui\commands\CreateCustomUI.class
