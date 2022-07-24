@@ -21,10 +21,7 @@ public class onResponded implements Listener {
                 if (ui.getTitle().equalsIgnoreCase("SimpleUI")){
                     String button = rui.getClickedButton().getText();
                     if (button.equalsIgnoreCase("Button")){
-                        player.getLevel().addSound(player.getDirectionVector(), Sound.MOB_ENDERMEN_DEATH);
-                        player.sendMessage(":D");
-                        Inventory inventory = player.getEnderChestInventory();
-                        player.addWindow(inventory);
+                        player.sendMessage("Clicked!");
                     }
                 }
             }
