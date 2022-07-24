@@ -16,7 +16,7 @@ public class CustomUI extends Command {
     public boolean execute(CommandSender sender, String s, String[] args) {
         if (sender instanceof Player){
             Player player = (Player) sender;
-            FormWindowCustom ui = new FormWindowCustom("Test");
+            FormWindowCustom ui = new FormWindowCustom("CustomUI");
             ui.addElement(new ElementInput("Input"));
             ui.addElement(new ElementSlider("Slider", 1, 10));
             ui.addElement(new ElementDropdown("Dropdown"));

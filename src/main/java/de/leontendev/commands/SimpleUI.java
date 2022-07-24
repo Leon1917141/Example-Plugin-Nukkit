@@ -12,7 +12,6 @@ import cn.nukkit.form.window.FormWindowSimple;
 public class SimpleUI extends Command {
     public SimpleUI(String name, String description, String usageMessage, String[] aliases) {
         super(name, description, usageMessage, aliases);
-        commandParameters.put("simpleui", new CommandParameter[]{new CommandParameter("players", CommandParamType.TARGET, false)});
     }
 
     @Override
