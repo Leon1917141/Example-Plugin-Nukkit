@@ -2,6 +2,8 @@ package de.leontendev;
 
 import cn.nukkit.plugin.PluginBase;
 import de.leontendev.command.NukkitTabCompleter;
+import de.leontendev.events.onChat;
+import de.leontendev.events.onMove;
 import de.leontendev.ui.commands.CreateCustomUI;
 import de.leontendev.ui.commands.CreateSimpleUI;
 import de.leontendev.ui.events.onResponded;
@@ -20,6 +22,8 @@ public class Example extends PluginBase {
 
     public void registerEvents(){
         getServer().getPluginManager().registerEvents(new onResponded(), this);
+        getServer().getPluginManager().registerEvents(new onChat(), this);
+        getServer().getPluginManager().registerEvents(new onMove(), this);
     }
 
 

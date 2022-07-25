@@ -1,4 +1,5 @@
-C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\commands\CustomUI.java
-C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\events\onResponded.java
-C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\commands\SimpleUI.java
-C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\Test.java
+C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\ui\events\onResponded.java
+C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\ui\commands\CreateSimpleUI.java
+C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\Example.java
+C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\command\NukkitTabCompleter.java
+C:\Users\maxm1\Desktop\Plugins\Example-Plugin-Nukkit\src\main\java\de\leontendev\ui\commands\CreateCustomUI.java

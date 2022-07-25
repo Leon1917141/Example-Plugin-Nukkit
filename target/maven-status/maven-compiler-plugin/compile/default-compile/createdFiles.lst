@@ -1,5 +1,7 @@
-de\leontendev\Example.class
-de\leontendev\ui\commands\CreateSimpleUI.class
+de\leontendev\events\onChat.class
 de\leontendev\command\NukkitTabCompleter.class
 de\leontendev\ui\events\onResponded.class
+de\leontendev\events\onMove.class
+de\leontendev\Example.class
+de\leontendev\ui\commands\CreateSimpleUI.class
 de\leontendev\ui\commands\CreateCustomUI.class
